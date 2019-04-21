@@ -1,0 +1,27 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    tools:context="fragments.SecondFragment"
+    android:layout_margin="20dp"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Radius"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:id="@+id/etRadius"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Calculate"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnCalculate"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

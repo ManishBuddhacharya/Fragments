@@ -1,0 +1,34 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="fragments.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFirst"
+        android:hint="Enter First Number"
+        android:textAlignment="center"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSecond"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:hint="Enter Second Number"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalculate"
+        android:text="Calculate"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
